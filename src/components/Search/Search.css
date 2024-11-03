@@ -1,0 +1,22 @@
+.search{
+    margin-left: 18px;
+    width: 11rem;
+    height: 2rem;
+}
+
+.search > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+    padding: 0 10px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.searchbar{
+    font-size: 13px;
+    padding: 5px 0;
+    border: none;
+    outline: none;
+}
