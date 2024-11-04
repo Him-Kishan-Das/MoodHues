@@ -5,7 +5,7 @@ import Artist from './components/Artist/Artist';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import SearchResult from './components/SearchResult/SearchResult';
-
+import Player from './components/Player/Player';
 
 function App() {
   const CLIENT_ID = "483ad49930a04eda9da6bd80ea1f1ca0"
@@ -46,6 +46,7 @@ function App() {
                     <Route path='/search' element={<SearchResult />} />
                 </Routes>
             </BrowserRouter>
+            <Player />
               {/* {!token ?
                   <a href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}>Login
                       to Spotify</a>

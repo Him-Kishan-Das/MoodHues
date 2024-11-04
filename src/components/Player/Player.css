@@ -1,0 +1,47 @@
+.player {
+    background-color: #181818; /* Spotify dark background */
+    color: #fff; /* White text */
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .now-playing-song {
+    display: flex;
+    align-items: center;
+    width: 20rem;
+  }
+  
+  .now-playing-song-image img {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+  }
+  
+  .now-playing-song-details {
+    margin-left: 15px;
+  }
+  
+  .now-playing-song-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .now-playing-song-artist {
+    font-size: 14px;
+    color: #b3b3b3;
+    margin: 0;
+  }
+  
+  .audio-player {
+    --rhap_background-color: #181818;
+    flex: 1;
+  }
+
+  .rhap_container { background-color: #181818; /* Match the main div background */ border-radius: 8px; }
+  
+ 
